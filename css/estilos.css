@@ -1,0 +1,167 @@
+/*estilos generales*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.contenedor{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*header*/
+
+.header{
+	padding: 6px 0;
+	font size: 12px;
+	border-bottom: 3px solid #f0f0f0;
+	background: #fafafa;
+	overflow: hidden;
+
+}
+
+.top-menu{
+	float: left;
+}
+
+.top-menu ul{
+	list-style: none;
+}
+
+.top-menu ul li{
+	float: left;
+}
+
+.top-menu ul li a{
+	text-decoration: none;
+	color: #363940;
+	padding: 10px 15px;
+	display: inline-block;
+}
+.top-menu ul li a:hover{
+	color: #8b919c;
+
+}
+
+.top-redes{
+	float: right;
+}
+
+.top-redes ul{
+	list-style: none;
+}
+
+.top-redes ul li{
+	float: right;
+}
+
+.top-redes ul li a{
+	text-decoration: none;
+	color: #363940;
+	padding: 10px 15px;
+	display: inline-block;
+}
+.top-redes ul li a:hover{
+	color: #8b919c;
+
+}
+
+.titulo-blog{
+	margin: 35px 0;
+	text-align: center;
+}
+
+.titulo-blog .contenedor h1 a{
+	text-decoration: none;
+	color: #363940;
+	font-size: 50px;
+	display: inline-block;
+	padding: 30px 0;
+	font-weight: 300;
+}
+
+.titulo-blog .contenedor h1 a:hover{
+	color:#8b919c;
+}
+
+.titulo-blog .contenedor .subtitulo{
+
+font-size: 16px;
+letter-spacing: 1px;
+color: #c7c7c7;
+}
+
+.menu-principal {
+	/*padding: 6px 0;
+	font size: 12px;
+	border-bottom: 3px solid #f0f0f0;
+	background: #fafafa;
+	overflow: hidden;*/
+	margin-bottom: 40px;
+	border-top: 1px solid #f0f0f0;
+	border.bottom: 1px solid #f0f0f0;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.menu-principal .contenedor ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.menu-principal .contenedor ul li{
+	float: left;
+}
+
+.menu-principal .contenedor ul li a{
+	text-decoration: none;
+	color: #363940;
+	padding: 10px 35px;
+	display: inline-block;
+}
+
+.menu-principal .contenedor ul li a:hover{
+	color:#8b919c;
+}
+
+/*Main*/
+
+/*Banner*/
+.main .banner{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.main .banner .contenedor .banner-principal{
+	width: 100%;
+}
+
+.main .banner .contenedor .banner-principal img{
+	width: 100%;
+}
+
+/*Blog*/
+
+.blog{
+	background: #f7f7f7;
+	padding: 40px 0;
+}
+
+.blog .contenedor{
+	overflow: hidden;
+}
+
+.blog .contenedor .articulos-blog{
+	float: left;
+	width: 68%;
+}
+
+/*articulos blog*/
+
+
